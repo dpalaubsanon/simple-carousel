@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Darryl Palaubsanon: Sample Carousel</title>
+	<script src="https://code.jquery.com/jquery-3.4.1.min.js" integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo=" crossorigin="anonymous"></script>
+
+	<!-- CSS link-->
+	<link rel="stylesheet" type="text/css" href="assets/css/style.css">
+
+	<!-- Bootstrap -->
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+
+	<!-- carousel -->
+	<link rel="stylesheet" target="_blank" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css">
+	<link rel="stylesheet" target="_blank" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.theme.default.css">
+</head>
+<body>
+	<div class="blog">
+		<h2 class="blog-carousel-title text-center">Our Latest Blogs</h2>
+		<section class="blog_section">
+			<div class="container">
+				<div class="blog_content">
+					<div class="owl-carousel owl-theme">
+						<div class="blog_item">
+							<div class="blog_image">
+								<img class="img-fluid" src="assets/images/1.png" alt="Lorem ipsum dolor sit amet, consectetur adipisicing elit">
+								<span><i class="icon ion-md-create"></i></span>
+							</div>
+							<div class="blog_details">
+								<div class="blog_title">
+									<h5><a target="_blank" href="#" rel="noopener noreferrer">Lorem ipsum dolor sit amet, consectetur adipisicing elit</a></h5>
+								</div>
+								<ul>
+									<li><i class="icon ion-md-calendar"></i>May 7, 2021</li>
+								</ul>
+								<p>orem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+								tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+								quis nostrudt.....</p>
+								<a target="_blank" href="#" rel="noopener noreferrer">Read More<i class="icofont-long-arrow-right"></i></a>
+							</div>
+						</div> 
+						<div class="blog_item">
+							<div class="blog_image">
+								<img class="img-fluid" src="assets/images/2.png" alt="Lorem ipsum dolor sit amet, consectetur adipisicing elit">
+								<span><i class="icon ion-md-create"></i></span>
+							</div>
+							<div class="blog_details">
+								<div class="blog_title">
+									<h5><a target="_blank" href="#" rel="noopener noreferrer">Lorem ipsum dolor sit amet, consectetur adipisicing elit</a></h5>
+								</div>
+								<ul>
+									<li><i class="icon ion-md-calendar"></i>May 6, 2021</li>
+								</ul>
+								<p>orem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+								tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+								quis nostrudt.....</p>
+								<a target="_blank" href="#" rel="noopener noreferrer">Read More<i class="icofont-long-arrow-right"></i></a>
+							</div>
+						</div> 
+						<div class="blog_item">
+							<div class="blog_image">
+								<img class="img-fluid" src="assets/images/3.png" alt="Building A Corporate e-Learning University">
+								<span><i class="icon ion-md-create"></i></span>
+							</div>
+							<div class="blog_details">
+								<div class="blog_title">
+									<h5><a target="_blank" href="#" rel="noopener noreferrer">Lorem ipsum dolor sit amet, consectetur adipisicing elit</a></h5>
+								</div>
+								<ul>
+									<li><i class="icon ion-md-calendar"></i>September 29, 2020</li>
+								</ul>
+								<p>orem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+								tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+								quis nostrudt.....</p>
+								<a target="_blank" href="#" rel="noopener noreferrer">Read More<i class="icofont-long-arrow-right"></i></a>
+							</div>
+						</div>
+						<div class="blog_item">
+							<div class="blog_image">
+								<img class="img-fluid" src="assets/images/4.png" alt="How To Have A Positive Online Learning Experience">
+								<span><i class="icon ion-md-create"></i></span>
+							</div>
+							<div class="blog_details">
+								<div class="blog_title">
+									<h5><a target="_blank" href="#" rel="noopener noreferrer">Lorem ipsum dolor sit amet, consectetur adipisicing elit</a></h5>
+								</div>
+								<ul>
+									<li><i class="icon ion-md-calendar"></i>September 29, 2020</li>
+								</ul>
+								<p>orem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+								tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+								quis nostrudt.....</p>
+								<a target="_blank" href="#" rel="noopener noreferrer">Read More<i class="icofont-long-arrow-right"></i></a>
+							</div>
+						</div>                                               
+					</div>
+				</div>
+			</div>
+		</section>
+
+		<!-- Jquery -->
+		<script src="https://code.jquery.com/jquery-3.4.1.js"></script>
+		<!-- bootstrap -->
+		<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"></script>
+		<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js"></script>
+		<!-- carousel -->
+		<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.js"></script>
+
+		<script type="text/javascript">
+		$('.owl-carousel').owlCarousel({
+			loop:true,
+			margin:10,
+			dots:true,
+			nav:true,
+			autoplay:true,   
+			smartSpeed: 3000, 
+			autoplayTimeout:7000,
+			responsive:{
+				0:{
+					items:1
+				},
+				600:{
+					items:2
+				},
+				1000:{
+					items:3
+				}
+			}
+		});
+		</script>
+	</div>
+</body>
+</html>
